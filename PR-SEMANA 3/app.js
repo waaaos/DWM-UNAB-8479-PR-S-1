@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const btnEnviar = document.getElementById('btnEnviar');
-    //bloquear intento de envio si no se han rellenado los campos
+    //bloquear continuacion si no se han rellenado los campos al enviar mensaje
     if (btnEnviar) {
         btnEnviar.addEventListener('click', () => {
             const email = document.getElementById('email').value;
@@ -50,3 +50,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
