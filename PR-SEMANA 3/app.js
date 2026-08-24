@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log(`Intento de inicio de sesion por: ${email}`);
         });
     }
-
     //resalta la pag q selecciono
     const enlaces = document.querySelectorAll('.nav-link');
     const urlActual = window.location.pathname.split('/').pop() || 'index.php';
@@ -34,7 +33,6 @@ document.addEventListener('DOMContentLoaded', () => {
             enlace.style.fontWeight = 'bold';
         }
     });
-
     //saludo dependiendo de la hr
     const contenedores = document.querySelectorAll('.bg-secondary');
     contenedores.forEach(contenedor => {
@@ -48,6 +46,5 @@ document.addEventListener('DOMContentLoaded', () => {
             contenedor.innerHTML = contenedor.innerHTML.replace('Hola!', saludo);
         }
     });
-
 });
 
