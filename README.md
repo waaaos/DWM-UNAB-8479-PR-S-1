@@ -1,4 +1,5 @@
 # DWM-UNAB-8479-2026 
 Repositorio para tareas de Desarrollo Web y Movil 2026 8479
 Integrantes: Benjamin Briones, Pablo Contreras
-Ultimo edit: 24/08
+Ultimo edit: 06/09
+
